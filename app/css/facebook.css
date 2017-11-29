@@ -1,0 +1,60 @@
+body{
+	margin-left: 10%;
+	font-family: 'Lato', sans-serif;
+	background-color: #ECFAFC   ;
+
+
+}
+input {
+    font-size: 4vmin;
+    width: 60%;
+    height: 2.5em;
+    opacity: 0.8;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    outline: none;
+    border:0;
+    background-color: #ECFAFC;
+}
+button {
+	opacity:0.7;
+    
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    
+}
+.myDetails{
+    cursor: not-allowed;
+    pointer-events: none;
+} /* To hide buttons once data comes successfuly */
+#fontSize{
+	font-size: 1.5em;
+}
+#myId{
+	padding-bottom: 3%;
+	font-size: 3.5vmin;
+	opacity:0.9;
+}
+#feedArea{
+	margin-top: 4%;
+}
+li{
+	background-color: white;
+	padding: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 70%;
+}
+#feedSize{
+	font-size: 0.8em;
+}
+.header{
+	font-size: 4vmin;
+	font-weight: bold;
+	opacity: 0.9
+}
+.feedPageInfo{
+	font-size: 3vmin;
+}
